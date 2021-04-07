@@ -1,3 +1,80 @@
+@import './navbar.css';
+@import './trading.css';
+@import './landing.css';
+@import './portfolio.css';
+
+body {
+  background: #222;
+  color: #fff;
+}
+.basic-layout {
+  padding-top:100px;
+}
+
+.login-container {
+  margin: 50px auto;
+  max-width: 320px;
+  overflow: hidden;
+  position: relative;
+  min-width: 320px;
+}
+.login-container header {
+  background-color: #333;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align:right;
+}
+.login-container header .tradergoText {
+  color: #1b73ee;
+}
+.login-container .live-demo {
+  padding: 20px;
+  background-color: #444;
+  display: flex;
+  justify-content: space-around;
+}
+.login-container .live-demo a {
+  text-decoration: none;
+  border: 1px solid #666;
+  padding: 3px 8px;
+  width: 50%;
+  text-align: center;
+  color: #666;
+}
+.login-container .live-demo a:hover {
+  border-color: #3498db;
+}
+
+.login-container .form-container {
+  padding: 20px;
+  background-color: #444;
+}
+.login-container .form-container .cell {
+  margin-bottom: 10px;
+  display: flex;
+}
+.login-container .form-container .cell  label {
+  width: 50%;
+  margin-right: 4px;
+}
+.login-container .form-container .cell select, input {
+  background-color: #222;;
+  width: 50%;
+  color: #fff;
+}
+.login-container .form-container .cell .loginButton {
+  width: 100%;
+  border-radius: 3px;
+  background-color: #6ab3e5;
+  padding:3px 8px;
+  font-weight: bold;
+  color: #ddd;
+  font-size: 14px;
+  text-transform: uppercase;
+  height: 50px;
+
+}
 h1, p {
   font-family: Lato;
 }

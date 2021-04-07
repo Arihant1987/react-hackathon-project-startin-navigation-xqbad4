@@ -1,11 +1,11 @@
 import React from "react";
 import Landing from './landing';
 
-const Sell = () => {
+const Funds = () => {
 return (<div class="basic-layout">
   <Landing />
-  Sell
+  Funds
   </div>) ;
 };
 
-export default Sell;
+export default Funds;

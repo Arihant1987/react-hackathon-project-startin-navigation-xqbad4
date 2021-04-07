@@ -1,0 +1,15 @@
+.navbar-container {
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+.navbar-container ul{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 0;
+  
+}
+
+.navbar-container ul li a {
+  text-decoration: none;
+}

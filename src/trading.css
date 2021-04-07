@@ -1,0 +1,21 @@
+.trade-table-container {
+  padding: 10px;
+}
+.trade-table-container table {
+  border: 1px solid #ddd;
+  width:100%;
+}
+.trade-table-container table caption{
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.trade-table-container table tr{
+  border-bottom: 1px solid #ddd;
+}
+.trade-table-container table thead{
+   color: #ddd;
+   text-align: center;
+}
+.trade-table-container table tr td, .trade-table-container table tr th{
+   padding: 10px;
+}

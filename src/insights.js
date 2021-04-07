@@ -1,15 +1,13 @@
 import React from "react";
 import Landing from './landing';
 
-
-const Buy = () => {
-  
-return(
+const Insights = () => {
+return( 
   <div class="basic-layout">
     <Landing />
-    Buy Section<span>Buying shares</span>
+    Insights
   </div>
-  );
+);
 };
 
-export default Buy;
+export default Insights;
